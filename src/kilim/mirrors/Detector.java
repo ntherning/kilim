@@ -187,7 +187,7 @@ public class Detector {
                 return oa;
             if (cb.isAssignableFrom(ca))
                 return ob;
-            if (ca.isInterface() && cb.isInterface()) {
+            if (ca.isInterface() || cb.isInterface()) {
                 return D_OBJECT; // This is what the java bytecode verifier does
             }
         } catch (ClassMirrorNotFoundException e) {
