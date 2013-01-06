@@ -6,7 +6,7 @@
 
 	<groupId>kilim</groupId>
 	<artifactId>kilim</artifactId>
-	<version>0.7.3</version>
+	<version>0.7.3.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
