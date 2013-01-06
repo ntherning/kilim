@@ -4,3 +4,6 @@ testclasses-*/**
 classes/**/*
 testclasses/**/*
 .DS_Store
+.classpath
+.project
+.settings
