@@ -14,6 +14,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<scm>
+		<url>https://github.com/ntherning/kilim</url>
+		<connection>scm:git:git://github.com/ntherning/kilim.git</connection>
+		<developerConnection>scm:git:git@github.com:ntherning/kilim.git</developerConnection>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>asm</groupId>
